@@ -5,20 +5,16 @@
     <title>CR OS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CROS.css">
-    <script src="myscripts.js"></script>
+    <script src="scripts.js"></script>
 
 </head>
 <body>
+    <canvas class="canvas"></canvas>
+
     <div id="macos-bar">
-        <div id="apple-logo"></div>
+        <div id="apple-logo">🍎</div>
         <div id="menu-items">
-            <span>Finder</span>
-            <span>File</span>
-            <span>Edit</span>
-            <span>View</span>
-            <span>Go</span>
-            <span>Window</span>
-            <span>Help</span>
+            <span>Coded By 0pen_s0urced_git On discord</span>
         </div>
         <div id="status-items">
             <span>🔊</span>
@@ -30,37 +26,34 @@
         <div id="desktop-icons">
             <div class="icon">
                 <img src="https://img.icons8.com/ios-filled/50/000000/folder-invoices--v1.png" width="48" height="48" onclick="myFunction()" >
-                <div>Documents</div>
+                <div>Partners</div>
             </div>
             <div class="icon">
-                <img src="https://img.icons8.com/ios-filled/50/000000/hdd.png" width="48" height="48">
-                <div>Macintosh HD</div>
+                <img src="https://img.icons8.com/ios-filled/50/000000/hdd.png" width="48" height="48" onclick="window.location.href='embedds/apps.html'">
+                <div>Apps</div>
             </div>
             <div class="icon">
-                <img src="https://img.icons8.com/ios-filled/50/000000/trash.png" width="48" height="48">
-                <div>Trash</div>
+                <img src="icons/settings.png" width="48" height="48">
+                <div>Settings</div>
             </div>
+           
         </div>
     </div>
     <div id="dock">
         <div class="dock-icon">
-            <img src="https://img.icons8.com/ios-filled/50/000000/finder--v2.png" width="48" height="48">
+            <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" width="48" height="48" alt="games">
         </div>
         <div class="dock-icon">
-            <img src="https://img.icons8.com/ios-filled/50/000000/safari--v1.png" width="48" height="48">
+            <img src="https://img.icons8.com/ios-filled/50/000000/safari--v1.png" width="48" height="48" alt="search">
         </div>
         <div class="dock-icon">
             <img src="https://img.icons8.com/ios-filled/50/000000/launchpad.png" width="48" height="48">
         </div>
         <div class="dock-icon">
-            <img src="https://img.icons8.com/ios-filled/50/000000/app-store.png" width="48" height="48">
+            <img src="icons/movies.png" width="48" height="48">
         </div>
-        <div class="dock-icon">
-            <img src="https://img.icons8.com/ios-filled/50/000000/system-preferences.png" width="48" height="48">
-        </div>
-        <div class="dock-icon">
-            <img src="https://img.icons8.com/ios-filled/50/000000/trash.png" width="48" height="48">
-        </div>
+       
+       
     </div>
     <script>
         function updateClock() {
